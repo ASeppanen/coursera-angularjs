@@ -1,0 +1,15 @@
+.red {
+	color: red;
+	border:1px solid red;
+}
+
+.green {
+	color: green;
+	border:1px solid green;
+}
+
+.message {
+	padding-left:15px;
+	padding-right:15px;
+	display:inline-block;
+}
