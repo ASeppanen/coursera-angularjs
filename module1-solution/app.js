@@ -7,7 +7,7 @@
 	LunchCheckController.$inject = ['$scope'];
 	function LunchCheckController($scope) {
 		$scope.message = "";
-		$scope.status = "green";
+		$scope.status = "";
 
 		$scope.checkIfTooMuch = function() {
 			if(!$scope.words || $scope.words.length === 0) {
